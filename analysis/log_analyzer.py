@@ -3,7 +3,7 @@ import json
 from collections import Counter
 from pathlib import Path
 
-LOG_FILE = Path("data/sample_cowrie.json")
+LOG_FILE = Path(__file__).resolve().parent.parent / "data" / "sample_cowrie.json"
 
 def analyze_logs():
     if not LOG_FILE.exists():
