@@ -1,0 +1,3 @@
+{"eventid":"cowrie.login.failed","username":"root","src_ip":"192.0.2.10"}
+{"eventid":"cowrie.login.success","username":"admin","src_ip":"192.0.2.20"}
+{"eventid":"cowrie.command.input","input":"whoami","src_ip":"192.0.2.20"}
